@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Paraíso Azul</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f3f7fb;
+            margin: 0;
+            color: #222;
+        }
+        header {
+            background: #0074d9;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0 1rem;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 2rem 0;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 260px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            margin-bottom: 1rem;
+        }
+        .description {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .video-section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem 2rem;
+            background: #e4f2ff;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .video-section iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 340px;
+            border-radius: 12px;
+        }
+        .booking {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        .booking h2 {
+            color: #0074d9;
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #dde9f6;
+            color: #555;
+            font-size: 1rem;
+        }
+        /* Chatbot floating button style */
+        #chatbot-btn {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            background: #0074d9;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+            cursor: pointer;
+            font-size: 2rem;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hotel Paraíso Azul</h1>
+        <p>Descubre el lugar perfecto para tu descanso y aventura</p>
+    </header>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Habitación moderna">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Piscina del hotel">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Restaurante del hotel">
+        <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=600&q=80" alt="Lobby de hotel">
+    </div>
+
+    <div class="description">
+        <h2>¿Quiénes somos?</h2>
+        <p>
+            Somos <b>Hotel Paraíso Azul</b>, un destino de lujo y confort en el corazón de la ciudad. Nos especializamos en ofrecer experiencias únicas a turistas y viajeros de negocios, con modernas habitaciones, gastronomía internacional, piscina panorámica, gimnasio, spa y atención personalizada.
+            <br><br>
+            Nuestro compromiso es brindar tranquilidad, hospitalidad y servicios de alta calidad para hacer de tu visita una experiencia inolvidable.
+        </p>
+    </div>
+
+    <div class="video-section">
+        <h2>Video: Amenidades del Hotel</h2>
+        <!-- Puedes reemplazar la URL del video por uno propio de YouTube -->
+        <iframe src="https://www.youtube.com/embed/ze7nFq6cFzo" title="Video Amenidades Hotel" allowfullscreen></iframe>
+    </div>
+
+    <div class="booking">
+        <h2>Reserva tu habitación</h2>
+        <p>Completa el siguiente formulario para reservar:</p>
+        <!-- Reemplaza la URL de Google Forms con tu propio formulario de reservas -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfuyz1QeJY1E3oG9IM4k3vIQ-2d4N1K5bZyN2wHq-8W2Z8o3g/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    </div>
+
+    <button id="chatbot-btn" title="Chat con nosotros">💬</button>
+
+    <footer>
+        &copy; 2025 Hotel Paraíso Azul - Todos los derechos reservados
+    </footer>
+
+    <!-- Ejemplo de integración de chatbot con Tidio (cambia el script por el de tu plataforma elegida) -->
+    <!-- Tidio Chatbot Script: Puedes obtenerlo gratis en https://www.tidio.com/ -->
+    <script src="//code.tidio.co/your-tidio-public-key.js" async></script>
+    <!-- Para otras plataformas, reemplaza el script por el que te proporciona la plataforma elegida. -->
+
+</body>
+</html>
