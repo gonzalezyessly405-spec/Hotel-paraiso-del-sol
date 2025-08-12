@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Sol y Mar Hotel</title>
+  <!-- Example Tidio Chatbot Embed (replace with your real code from Tidio or chosen provider) -->
+  <!-- Tidio Example -->
+  <script src="//code.tidio.co/your-tidio-public-key.js" async></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background: #f5fafc;}
+    header { background: #0177b7; color: #fff; padding: 2rem; text-align: center;}
+    .gallery { display: flex; justify-content: center; gap: 1rem; margin: 2rem 0;}
+    .gallery img { width: 250px; height: 180px; object-fit: cover; border-radius: 8px;}
+    .description, .video-section, .booking, .chatbot-info, .recommendations { max-width: 700px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px;}
+    .booking iframe { width: 100%; height: 600px; border: none;}
+    h2 { color: #0177b7; }
+    .diagram { text-align: center; }
+    .diagram img { max-width: 90%; }
+    .screenshot img { max-width: 100%; border-radius: 8px;}
+    .chatbot-info ul { margin-left: 1rem;}
+    .recommendations ul { margin-left: 1rem;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sol y Mar Hotel</h1>
+    <p>Bienvenido a su oasis frente al mar</p>
+  </header>
+  
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Hotel Lobby">
+    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Room View">
+    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Pool Area">
+  </div>
+  
+  <section class="description">
+    <h2>Quiénes Somos</h2>
+    <p>
+      Sol y Mar Hotel es un destino boutique frente al mar que combina lujo y comodidad con un toque local. Nuestro equipo multicultural se esfuerza por ofrecer experiencias personalizadas, ayudando a cada huésped a descubrir las maravillas de la región. Contamos con habitaciones modernas, restaurante gourmet, piscina panorámica y acceso directo a la playa. ¡Venga a relajarse, explorar y disfrutar!
+    </p>
+  </section>
+  
+  <section class="video-section">
+    <h2>Video: Descubre las Amenidades</h2>
+    <video width="100%" height="340" controls>
+      <source src="hotel-amenities.mp4" type="video/mp4">
+      Tu navegador no soporta el video.
+    </video>
+    <ul>
+      <li>Habitaciones con vista al mar</li>
+      <li>Piscina infinita y bar de playa</li>
+      <li>Gimnasio y spa</li>
+      <li>Excursiones y tours turísticos</li>
+      <li>Desayuno buffet incluido</li>
+    </ul>
+  </section>
+  
+  <section class="booking">
+    <h2>Reserva tu Estancia</h2>
+    <!-- Example Google Form Embed (Replace with your own form link) -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdD5ZzXyWbEJ4lEo6oqU6O1iXcOeG2Ew6cA2QZ1y6gTQwdq1A/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+  </section>
+  
+  <section class="chatbot-info">
+    <h2>Chatbot Asistente</h2>
+    <p>
+      Nuestro chatbot, basado en <b>Tidio</b>, está disponible 24/7 para responder preguntas frecuentes, ayudar con reservas y ofrecer recomendaciones turísticas. Además, con <b>Zapier</b>, automatizamos tareas como la sincronización de reservas, envío de correos y log de datos en Google Sheets.
+    </p>
+    <ul>
+      <li>Responder preguntas sobre horarios, servicios y ubicación</li>
+      <li>Ayudar con la reserva y redireccionar al sistema de reservas</li>
+      <li>Soporte en varios idiomas</li>
+      <li>Automatización de tareas administrativas con Zapier</li>
+    </ul>
+    <p>Ejemplo de integración: <br>
+      <code>&lt;script src="//code.tidio.co/your-tidio-public-key.js" async&gt;&lt;/script&gt;</code>
+    </p>
+  </section>
+  
+  <section class="diagram">
+    <h2>Diagrama de Flujo Conversacional</h2>
+    <img src="https://i.imgur.com/nqK4yXc.png" alt="Chatbot Flow Diagram" />
+    <p>
+      <b>Inicio → Saludo → Selección de Idioma → Menú Principal (Reserva, Información, FAQ, Contacto) → Respuesta → Cierre/Redirección</b>
+    </p>
+  </section>
+  
+  <section class="screenshot">
+    <h2>Captura de Pantalla del Chatbot</h2>
+    <img src="https://i.imgur.com/3h4CSsL.png" alt="Chatbot Screenshot" />
+    <!-- Replace with your real screenshot -->
+  </section>
+  
+  <section class="recommendations">
+    <h2>Automatizaciones con Zapier</h2>
+    <ul>
+      <li>Registro automático de reservas en Google Sheets</li>
+      <li>Notificaciones por email ante nuevas consultas</li>
+      <li>Sincronización de disponibilidad con motores de reserva</li>
+      <li>Envío automático de promociones según temporada</li>
+    </ul>
+    <h2>Recomendaciones Futuras</h2>
+    <ul>
+      <li>Integración con WhatsApp y redes sociales</li>
+      <li>Agregar nuevos idiomas y contenido turístico</li>
+      <li>Mejorar inteligencia conversacional con IA</li>
+      <li>Campañas de marketing automatizadas</li>
+    </ul>
+  </section>
+
+</body>
+</html>
